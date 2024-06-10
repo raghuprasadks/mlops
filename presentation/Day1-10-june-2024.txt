@@ -1,0 +1,71 @@
+1. Introduction to AI,ML,DL
+2. Applications of AI
+3. Types of machine learning
+4. Life Cycle of machine learning project
+5. Introduction to Devops
+6. Introduction to MLOps
+
+Pre-assessment - Develop a linear regression model
+1. Check python version. If not set, use the 
+environment variable to set the path
+2. Download and install visual studio code
+3. create mlworkshop->practicals folder
+4. open practicals folder using visual studio code
+5. create virtual environment in visual studio code
+virtualenv <name of the virtual env>
+virtualenv venv
+
+C:\Users\Raghu Prasad\AppData\Local\Programs\Python\Python311
+
+C:\Users\Raghu Prasad\AppData\Local\Programs\Python\Python311\Scripts
+
+6. activate virtual environment
+venv\Scripts\activate
+7. Develop a linear regression model using
+vine quality dataset
+
+8. create mlops repository in GitHub.com
+9. push the code which is inside the practicals folder
+10. download and install git
+https://www.git-scm.com/download/win
+
+11. cd to practicals folder
+12. Use following git commands
+
+1. git init
+2. git add .
+git commit -m "initial commit"
+in case you are asked to provide your details
+git config --global user.name "Your Name"
+3. Enter the following command, replacing you@example.com with your actual email (but keep the quotes around it):
+git config --global user.email "you@example.com"
+git config --global user.name "raghuprasadks"
+git config --global user.email "prasadraghuks@gmail.com"
+4. git branch -M main
+5. git remote add origin https://github.com/raghuprasadks/mlops.git
+6. git push -u origin main
+
+
+13. After adding new file or modifying a existing file in git
+git status
+git add .
+git commit -m "updated"
+git push
+
+
+create an account in azure
+
+https://azure.microsoft.com/en-in/free/students
+
+Machine Learning algorithms - practicals
+1. Different algorithms
+2. Hyperparameter tuning
+
+
+
+
+
+
+
+
+

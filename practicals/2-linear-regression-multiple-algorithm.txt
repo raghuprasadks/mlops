@@ -1,0 +1,12 @@
+Ridge Regression and Lasso Regression are two types of linear regression models that use regularization to improve the model's prediction performance and prevent overfitting. Here are some advantages of using them over standard Linear Regression:
+
+Ridge Regression:
+
+It includes a regularization parameter (L2 penalty) that discourages large coefficients by penalizing the square of the coefficients in the loss function. This helps to reduce model complexity and prevent overfitting.
+It is particularly useful when the features are correlated. In such cases, standard linear regression might produce unstable estimates. Ridge regression stabilizes these estimates by shrinking them.
+Lasso Regression:
+
+Like Ridge Regression, Lasso Regression also includes a regularization parameter, but it uses the L1 penalty which penalizes the absolute value of the coefficients. This can lead to some coefficients being exactly zero.
+This property of Lasso Regression makes it useful for feature selection. If a feature has a coefficient of zero, it means that the feature has no effect on the prediction, effectively excluding it from the model.
+Like Ridge Regression, Lasso also helps to prevent overfitting.
+In both cases, the regularization parameter needs to be tuned to find the best trade-off between bias (underfitting) and variance (overfitting). This is typically done using cross-validation.
